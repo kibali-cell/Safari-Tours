@@ -1,8 +1,8 @@
-import tour1    from "@/assets/tour-1.jpg";
-import tour3    from "@/assets/tour-3.jpg";
-import tour4    from "@/assets/tour-4.jpg";
-import tour6    from "@/assets/tour-6.jpg";
-import beachImg from "@/assets/beach.jpg";
+import tour1    from "@/assets/tour-1.webp";
+import tour3    from "@/assets/tour-3.webp";
+import tour4    from "@/assets/tour-4.webp";
+import tour6    from "@/assets/tour-6.webp";
+import beachImg from "@/assets/beach.webp";
 
 export interface Highlight {
   icon:  string;

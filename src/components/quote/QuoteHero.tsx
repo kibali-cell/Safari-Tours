@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import heroImg from "@/assets/tour-1.jpg";
+import heroImg from "@/assets/tour-1.webp";
 
 interface QuoteHeroProps {
   step:       number;

@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { MapPin, Phone, MessageCircle } from "lucide-react";
-import safariImg from "@/assets/safari-landscape.jpg";
+import safariImg from "@/assets/safari-landscape.webp";
 import { useSiteSettings } from "@/hooks/use-site-settings";
 
 interface QuoteSidebarProps {

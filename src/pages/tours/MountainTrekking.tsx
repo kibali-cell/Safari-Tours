@@ -4,7 +4,7 @@ import PageLayout from "@/components/PageLayout";
 import { useTours, PackagesGrid } from "./_shared";
 import RouteSelector from "@/components/RouteSelector";
 import KilimanjaroFAQ from "@/components/KilimanjaroFAQ";
-import kilimanjaro from "@/assets/mount-trek.jpg";
+import kilimanjaro from "@/assets/mount-trek.webp";
 
 const accent = "hsl(var(--terracotta))";
 

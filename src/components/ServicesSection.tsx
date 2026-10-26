@@ -1,8 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import guidedImg    from "@/assets/guided-safari.jpg";
+import guidedImg    from "@/assets/guided-safari.webp";
 import kiliImg      from "@/assets/kilimanjaro.jpg";
-import beachImg     from "@/assets/beach.jpg";
+import beachImg     from "@/assets/beach.webp";
 
 const services = [
   {

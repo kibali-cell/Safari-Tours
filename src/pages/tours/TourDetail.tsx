@@ -15,6 +15,7 @@ import { FALLBACK_TOURS } from "@/data/toursData";
 import maranguRouteImg from "@/assets/Marangu-Route-Map.jpg";
 import machameRouteImg from "@/assets/Machame-Route-Map.avif";
 import lemoshoRouteImg from "@/assets/Lemosho-Route-Map.avif";
+import SEO from "@/components/seo/SEO";
 
 const ROUTE_MAP: Record<string, string> = {
   "kilimanjaro-marangu-route":  maranguRouteImg,
@@ -364,6 +365,15 @@ const TourDetail = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title={`${tour.title} - ${tour.duration_days}-Day Tanzania Adventure`}
+        description={
+          tour.excerpt?.trim() ||
+          tour.description?.trim() ||
+          `Explore ${tour.title} with Native Kilimanjaro. Discover tour highlights, itinerary, duration, and travel details.`
+        }
+        path={`/tours/${tour.slug}`}
+      />
       <div className="container mx-auto px-4 md:px-8 max-w-5xl"
         style={{ paddingTop: "calc(var(--nav-total-h, 72px) + 2rem)", paddingBottom: "6rem" }}>
 

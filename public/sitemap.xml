@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main pages -->
+  <url><loc>https://nativekilimanjaro.com/</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/guided</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/mountain</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/beach</loc></url>
+  <url><loc>https://nativekilimanjaro.com/destinations</loc></url>
+  <url><loc>https://nativekilimanjaro.com/about</loc></url>
+  <url><loc>https://nativekilimanjaro.com/contact</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog</loc></url>
+  <url><loc>https://nativekilimanjaro.com/faq</loc></url>
+
+  <!-- Individual tours -->
+  <url><loc>https://nativekilimanjaro.com/tours/tanzania-safari-zanzibar</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/great-migration-serengeti</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/big-five-cultural-safari</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/zanzibar-beach-holiday</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/kilimanjaro-marangu-route</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/kilimanjaro-machame-route</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/kilimanjaro-lemosho-route</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/meru-route</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/kilimanjaro-rongai-route</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/kilimanjaro-umbwe-route</loc></url>
+  <url><loc>https://nativekilimanjaro.com/tours/kilimanjaro-northern-circuit-route</loc></url>
+
+  <!-- Destinations -->
+  <url><loc>https://nativekilimanjaro.com/destinations/tanzania</loc></url>
+  <url><loc>https://nativekilimanjaro.com/destinations/kenya</loc></url>
+  <url><loc>https://nativekilimanjaro.com/destinations/rwanda</loc></url>
+  <url><loc>https://nativekilimanjaro.com/destinations/zanzibar</loc></url>
+
+  <!-- Blog articles -->
+  <url><loc>https://nativekilimanjaro.com/blog/great-wildebeest-migration-guide</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog/best-time-visit-tanzania</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog/kilimanjaro-route-comparison</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog/what-to-pack-safari</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog/maasai-culture-traditions</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog/ngorongoro-crater-guide</loc></url>
+  <url><loc>https://nativekilimanjaro.com/blog/night-safari-tips</loc></url>
+</urlset>

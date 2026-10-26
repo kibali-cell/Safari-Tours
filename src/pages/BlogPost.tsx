@@ -13,6 +13,7 @@ import { TOCItem } from "@/components/blog/post/types/blogPost";
 import type { ContentBlock } from "@/components/blog/post/types/blogPost";
 import { BLOG_POSTS } from "@/data/blogData";
 import { publicApi } from "@/lib/api";
+import SEO from "@/components/seo/SEO";
 
 //   Helpers       ─
 
@@ -351,6 +352,15 @@ const BlogPostPage = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title={post.title}
+        description={
+          post.excerpt?.trim() ||
+          `Read ${post.title} on the Native Kilimanjaro travel blog for insights about Tanzania, safaris, and African adventures.`
+        }
+        path={`/blog/${post.slug}`}
+        image={post.image || undefined}
+      />
       <ReadingProgress />
       <PostHero post={post} />
 

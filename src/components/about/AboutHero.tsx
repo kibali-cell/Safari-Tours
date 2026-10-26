@@ -1,5 +1,5 @@
 import PageHero from "@/components/PageHero";
-import elephantsImg from "@/assets/safari-elephants.jpg";
+import elephantsImg from "@/assets/safari-elephants.webp";
 
 const AboutHero = () => (
   <PageHero

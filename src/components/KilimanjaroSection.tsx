@@ -2,10 +2,10 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import machameImg from "@/assets/kili-3.jpg";
+import machameImg from "@/assets/kili-3.webp";
 import lemoshoImg from "@/assets/kili-1.webp";
 import maranguImg from "@/assets/kili-2.webp";
-import meruImg from "@/assets/meru.jpg";
+import meruImg from "@/assets/meru.webp";
 
 const treks = [
   {

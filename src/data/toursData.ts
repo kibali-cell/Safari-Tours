@@ -5,51 +5,51 @@ import lemoshoRouteImg from "@/assets/Lemosho-Route-Map.avif";
 import meruTrekking from "@/assets/meru-map.png";
 
 // Safari & Wildlife Images
-import safariElephants from "@/assets/safari-elephants.jpg";
-import safariLions from "@/assets/safari-lions.jpg";
-import safariLandscape from "@/assets/safari-landscape.jpg";
-import safariDrive from "@/assets/safari-drive.jpg";
-import serengeriPlains from "@/assets/serengeri-plains.jpg";
-import zebras from "@/assets/zebras.jpg";
-import zebraSavanna from "@/assets/zebra-savanna.jpg";
-import lions from "@/assets/lions.jpg";
+import safariElephants from "@/assets/safari-elephants.webp";
+import safariLions from "@/assets/safari-lions.webp";
+import safariLandscape from "@/assets/safari-landscape.webp";
+import safariDrive from "@/assets/safari-drive.webp";
+import serengeriPlains from "@/assets/serengeri-plains.webp";
+import zebras from "@/assets/zebras.webp";
+import zebraSavanna from "@/assets/zebra-savanna.webp";
+import lions from "@/assets/lions.webp";
 import twoLions from "@/assets/two-lions.jpg";
-import elephant from "@/assets/elephant.jpg";
+import elephant from "@/assets/elephant.webp";
 import elephants1 from "@/assets/elephants_1.jpg";
-import lionTours from "@/assets/lion-tours.jpg";
+import lionTours from "@/assets/lion-tours.webp";
 import giraffe from "@/assets/giraffe.jpg";
 import antelopes from "@/assets/antelopes-savanna.jpg";
-import gameDrive from "@/assets/game-drive.jpg";
-import migration from "@/assets/tour-4.jpg";
+import gameDrive from "@/assets/game-drive.webp";
+import migration from "@/assets/tour-4.webp";
 
 // Zanzibar & Beach Images
 import zanzibar from "@/assets/zanzibar.jpg";
-import zanzibarCoast from "@/assets/zanzibar-coast.jpg";
-import beach from "@/assets/beach.jpg";
-import clearBeach from "@/assets/clear-beach.jpg";
-import seaSunset from "@/assets/sea-sunset.jpg";
-import beach2 from "@/assets/beach (2).jpg";
-import stonetonCoast from "@/assets/stonetown-coast.jpg";
+import zanzibarCoast from "@/assets/zanzibar-coast.webp";
+import beach from "@/assets/beach.webp";
+import clearBeach from "@/assets/clear-beach.webp";
+import seaSunset from "@/assets/sea-sunset.webp";
+import beach2 from "@/assets/beach (2).webp";
+import stonetonCoast from "@/assets/stonetown-coast.webp";
 
 // Kilimanjaro Trek Images
 import kili1 from "@/assets/kili-1.webp";
 import kili2 from "@/assets/kili-2.webp";
-import kili3 from "@/assets/kili-3.jpg";
-import kili4 from "@/assets/kili-4.jpg";
+import kili3 from "@/assets/kili-3.webp";
+import kili4 from "@/assets/kili-4.webp";
 import kili5avif from "@/assets/kili-5.avif";
-import kili5jpg from "@/assets/kili-5.jpg";
+import kili5jpg from "@/assets/kili-5.webp";
 import kiliTrek from "@/assets/kili-trek.webp";
 import kilimanjaro from "@/assets/kilimanjaro.jpg";
-import mountTrek from "@/assets/mount-trek.jpg";
-import meru3 from "@/assets/meru-3.jpg"
-import meru2 from "@/assets/meru-2.jpg"
+import mountTrek from "@/assets/mount-trek.webp";
+import meru3 from "@/assets/meru-3.webp"
+import meru2 from "@/assets/meru-2.webp"
 
 // Lodge & Accommodation Images
 import lodge1 from "@/assets/lodge-1.jpg";
 import lodge2 from "@/assets/lodge-2.jpg";
 
 // Guide & Activities
-import guidedSafari from "@/assets/guided-safari.jpg";
+import guidedSafari from "@/assets/guided-safari.webp";
 import selfDrive from "@/assets/self-drive.png";
 
 export interface ItineraryDay { day: number; title: string; desc: string; }

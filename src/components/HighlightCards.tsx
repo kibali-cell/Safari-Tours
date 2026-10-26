@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import safariImg from "@/assets/safari-elephants.jpg";
+import safariImg from "@/assets/safari-elephants.webp";
 import kiliImg from "@/assets/kilimanjaro.jpg";
 
 const highlights = [

@@ -1,7 +1,7 @@
 import FAQBody from "@/components/faq/FaqBody";
 import PageHero from "@/components/PageHero";
 import PageLayout from "@/components/PageLayout";
-import faqImg from "@/assets/faq-2.jpg"
+import faqImg from "@/assets/faq-2.webp"
 
 const FAQPage = () => (
   <PageLayout>

@@ -5,7 +5,7 @@ import {
 } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 import { publicApi, ApiError } from "@/lib/api";
-import tour1 from "@/assets/tour-1.jpg";
+import tour1 from "@/assets/tour-1.webp";
 import { useSiteSettings } from "@/hooks/use-site-settings";
 
 //   Data         

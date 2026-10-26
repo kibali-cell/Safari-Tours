@@ -11,6 +11,7 @@ import {
 import { motion } from "framer-motion";
 import PageLayout from "@/components/PageLayout";
 import { getDestination, DESTINATIONS } from "@/data/destinationData";
+import SEO from "@/components/seo/SEO";
 
 //   Icon resolver    ─
 
@@ -46,6 +47,11 @@ const DestinationPage = () => {
 
   return (
     <PageLayout>
+      <SEO
+        title={`${dest.name} Travel Guide`}
+        description={dest.desc}
+        path={`/destinations/${dest.slug}`}
+      />
 
       {/*   Hero   */}
       <section

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import PageLayout from "@/components/PageLayout";
 import PageHero from "@/components/PageHero";
 import { DESTINATIONS } from "@/data/destinationData";
-import tour1 from "@/assets/tour-1.jpg";
+import tour1 from "@/assets/tour-1.webp";
 
 const DestinationsPage = () => (
   <PageLayout>

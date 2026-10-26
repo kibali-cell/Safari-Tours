@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 import { useTours, PackagesGrid } from "./_shared";
 import { DESTINATIONS } from "@/data/destinationData";
-import guidedSafari from "@/assets/guided-safari.jpg";
+import guidedSafari from "@/assets/guided-safari.webp";
 
 const GuidedSafaris = () => {
   const { tours, loading } = useTours("GUIDED");

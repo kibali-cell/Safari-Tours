@@ -2,7 +2,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, Compass, MapPin } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
-import heroImg from "@/assets/tour-1.jpg";
+import heroImg from "@/assets/tour-1.webp";
 
 const NAV_LINKS = [
   { label: "Home",         href: "/"            },

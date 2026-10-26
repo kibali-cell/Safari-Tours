@@ -1,16 +1,29 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImg from "@/assets/hero-safari.jpg";
+import heroImg from "@/assets/hero-safari.webp";
+import heroImg1920 from "@/assets/hero-safari-1920.webp";
+import heroImg2560 from "@/assets/hero-safari-2560.webp";
+
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[120px]">
       {/* Background Image */}
-      <img
-        src={heroImg}
-        alt="African safari landscape at golden hour"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      
+      <picture className="absolute inset-0 h-full w-full">
+        <source
+          type="image/webp"
+          srcSet={`${heroImg1920} 1920w, ${heroImg2560} 2560w`}
+          sizes="100vw"
+        />
+        <img
+          src={heroImg}
+          alt="African safari landscape at golden hour"
+          className="absolute inset-0 h-full w-full object-cover"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black/70" />
@@ -25,7 +38,7 @@ const HeroSection = () => {
           Step into Safari Where <br />
           <span className="text-primary italic">Every Sunrise Brings a New Adventure</span>
         </h1>
-
+ 
         <p className="font-body text-lg md:text-xl text-sand/80 max-w-2xl mx-auto mb-10 leading-relaxed">
           Discover East Africa's most extraordinary wildlife encounters, cultural experiences, and pristine landscapes.
         </p>

@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Heart, TreePine, Compass, Headphones, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import img1 from "@/assets/safari-elephants.jpg";
-import img2 from "@/assets/safari-landscape.jpg";
-import img3 from "@/assets/safari-lions.jpg";
+import img1 from "@/assets/safari-elephants.webp";
+import img2 from "@/assets/safari-landscape.webp";
+import img3 from "@/assets/safari-lions.webp";
 import logoSrc from "@/assets/watermark.png";
 
 const reasons = [

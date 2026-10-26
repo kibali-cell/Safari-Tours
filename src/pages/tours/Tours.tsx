@@ -5,7 +5,7 @@ import { MapPin, Clock, ArrowRight, SlidersHorizontal, X } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 import { publicApi } from "@/lib/api";
 import { FALLBACK_TOURS, type Tour } from "@/data/toursData";
-import tour1 from "@/assets/guided-safari.jpg";
+import tour1 from "@/assets/guided-safari.webp";
 
 const TYPE_LABELS: Record<string, string> = {
   GUIDED:     "Guided Safari",

@@ -1,11 +1,10 @@
 import { BlogCategory, BlogPost } from "@/components/blog/Blog";
 
 // Import images
-import tour1Img from "@/assets/tour-1.jpg";
-import tour2Img from "@/assets/tour-2.jpg";
-import tour3Img from "@/assets/tour-3.jpg";
-import tour4Img from "@/assets/tour-4.jpg";
-import tour5Img from "@/assets/tour-5.jpeg";
+import tour1Img from "@/assets/tour-1.webp";
+import tour2Img from "@/assets/tour-2.webp";
+import tour3Img from "@/assets/tour-3.webp";
+import tour4Img from "@/assets/tour-4.webp";
 
 // Categories
 // Centralised so CategoryFilter and filtering logic share the same source

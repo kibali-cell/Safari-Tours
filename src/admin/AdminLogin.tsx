@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Eye, EyeOff, LogIn, AlertCircle } from "lucide-react";
 import { useAdminAuth } from "./AdminAuth";
 import logoSrc from "@/assets/logo_thumbnail.png";
-import bgImg   from "@/assets/tour-3.jpg";
+import bgImg   from "@/assets/tour-3.webp";
 
 const AdminLogin = () => {
   const [email,    setEmail]    = useState("");

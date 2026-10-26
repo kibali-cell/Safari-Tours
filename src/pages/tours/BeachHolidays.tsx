@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 import { useTours, PackagesGrid } from "./_shared";
-import zanzibar from "@/assets/beach (2).jpg";
+import zanzibar from "@/assets/beach (2).webp";
 
 const accent = "hsl(var(--terracotta-light))";
 

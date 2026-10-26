@@ -1,4 +1,6 @@
 import type { BlogPost, FullBlogPost } from "../types/blogPost";
+import tour1Img from "@/assets/tour-1.webp";
+import tour3Img from "@/assets/tour-3.webp";
 
 // Full posts (keyed by slug) 
 // Add one entry per slug that matches BLOG_POSTS in blogData.ts
@@ -12,10 +14,10 @@ export const FULL_POSTS: Record<string, FullBlogPost> = {
     excerpt:     "Over two million wildebeest, zebra, and gazelle thunder across the Serengeti-Mara ecosystem every year. Here's everything you need to know to witness one of nature's greatest spectacles.",
     category:    "Wildlife",
     author:      "Theophil Kiwia",
-    authorBio:   "BalbTheophilina has guided safaris across East Africa for over 15 years. She specialises in wildlife behaviour and the Serengeti ecosystem.",
+    authorBio:   "Theophil has guided safaris across East Africa for over 15 years. She specialises in wildlife behaviour and the Serengeti ecosystem.",
     date:        "2025-11-12",
     readingTime: 9,
-    image:       "/src/assets/tour-1.jpg",
+    image:       tour1Img,
     featured:    true,
     body: [
       {
@@ -60,7 +62,7 @@ export const FULL_POSTS: Record<string, FullBlogPost> = {
       },
       {
         type:    "image",
-        src:     "/src/assets/tour-3.jpg",
+        src:     tour3Img,
         alt:     "Wildebeest crossing the Mara River",
         caption: "Thousands of wildebeest gather at the Mara River before committing to a crossing. They may wait hours — or days.",
       },
